@@ -1,0 +1,61 @@
+.cont {
+  position: relative;
+
+  .imageContainer {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+
+    .image {
+      position: absolute;
+      object-fit: cover;
+      margin-left: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+    }
+  }
+
+  .imageContainerResized {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    overflow: hidden;
+    top: -70px;
+    left: 20px;
+
+
+    .image {
+      position: absolute;
+      object-fit: cover;
+    }
+  }
+
+  .loader {
+    position: absolute;
+    left: 70px;
+    bottom: -30px;
+    transform: rotate(90deg) scaleX(-1);
+  }
+
+  .editAvatar {
+    position: absolute;
+    left: 120px;
+    bottom: -60px;
+    cursor: pointer;
+
+    .editAvatarButton {
+      margin: 5px;
+      padding: 3px;
+      border-radius: 5px;
+
+      .editAvatarIcon {
+        height: 20px;
+      }
+    }
+  }
+}
+
+
+

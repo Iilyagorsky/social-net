@@ -1,0 +1,23 @@
+.userAdditions {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 20px 15px;
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-bottom: 5px solid white;
+  }
+
+  .linksActive {
+    @extend .links;
+    border-bottom: 5px solid #428bca;
+    padding: 5px 10px;
+    color: #428bca;
+
+  }
+}
